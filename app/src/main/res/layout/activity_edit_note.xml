@@ -1,0 +1,23 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/editNoteContent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Edit your note"
+        android:inputType="textMultiLine"
+        android:minLines="4"
+        android:gravity="top" />
+
+    <Button
+        android:id="@+id/btnSaveNote"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editNoteContent"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="16dp"
+        android:text="Save" />
+</RelativeLayout>
